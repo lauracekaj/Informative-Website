@@ -1,0 +1,183 @@
+body{
+  background-color: #8D8741;
+}
+h1{
+  font-family: Lucida Bright, Georgia, serif;
+  color: white;
+  text-align: center;
+}
+.title{
+  font-size: 4em;
+}
+
+.topnav {
+background-color: #afd275;
+overflow: hidden;
+}
+
+
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+font-family: Lucida Bright, Georgia, serif;
+}
+
+
+.topnav a:hover {
+background-color: white;
+color: black;
+}
+p{
+font-family: Lucida Bright, Georgia, serif;
+font-size: 25px;
+text-align: center;
+color: white;
+margin-top: 50px;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+.description1{
+font-size: 20px;
+margin-left: 100px;
+margin-right: 100px;
+line-height: 40px;
+}
+
+
+
+img{
+width: 380.3px;
+height: 570.5px;
+text-align: right;
+max-width: 100%;
+}
+
+.products{
+  display: block;
+    text-align: left;
+    padding: 16px;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+  padding: 0;
+  overflow: hidden;
+display: flex;
+
+justify-content: center;
+}
+
+figcaption{
+  font-size: 17px;
+  font-family: Lucida Bright, Georgia, serif;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: white;
+}
+
+ul li p a{
+  font-size: 17px;
+  font-family: Lucida Bright, Georgia, serif;
+  text-align: center;
+  color: #4b5320;
+  text-decoration: none;
+}
+
+.firstDiv{
+  width: 100%;
+}
+
+
+
+ footer{
+   background-color: #afd275;
+   color: white;
+   height: 30px;
+   clear: both;
+ }
+
+ .product1{
+     clear: left;
+     over-flow: auto;
+     width: 100%;
+     display: block;
+    }
+
+.product1 img{
+  float: left;
+margin-bottom: 20px;
+margin-right: 50px;
+}
+
+hgroup{
+  color: white;
+  text-align: left;
+}
+.product1 input{
+  padding: 10px;
+  background-color: #afd275;
+  border: none;
+  color: white;
+}
+
+#formLegend, #userLegend{
+  color: white;
+  background-color: #afd275;
+  padding: 10px;
+}
+#formFieldset, #userFieldset{
+  width: 300px;
+  margin: auto;
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
+
+.newProduct input{
+  padding: 10px;
+}
+.newProduct form fieldset{
+  border: 1px solid white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 20px;
+  background: black;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}

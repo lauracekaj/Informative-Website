@@ -1,60 +1,86 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <style media="screen">
-      body{
-        background-color: rgb(240, 110, 140);
-      }
-      h1, h3{
-        font-family: OCR A Std, monospace;
-        color: white;
-        text-align: center;
-      }
-
-      .topnav {
-      background-color: #5c0a1d;
-      overflow: hidden;
-      }
-
-
-      .topnav a {
-      float: left;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-      font-family: OCR A Std, monospace;
-      }
-
-
-      .topnav a:hover {
-      background-color: white;
-      color: black;
-      }
-
-
-      .topnav a.active {
-      background-color: #d01641;
-      color: white;
-      }
-
-
-  
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Healthy Motherboard</title>
+    <link rel="stylesheet" href="stylingProject.css">
   </head>
   <body>
-    <h1>Healthy Motherboard</h1>
-    <hr>
-    <h3>Dedicated to mental health</h3>
+    <h1 class="title">Healthy Motherboard</h1>
     <div class="topnav">
-      <a class="active" href="#home">Home</a>
+      <a class="active" href="ProjectWeb.html">Home</a>
       <a href="#news">News</a>
       <a href="#contact">Contact</a>
       <a href="#about">About</a>
+      <a href="projectForm.html">Add New Product</a>
+
     </div>
+
+    <p class="first">Our shop is totally dedicated to brain health and self healing.</p>
+    <p class="description1">Our enthusiasm for herbal medicine is undoubtedly fueled by the high cost of prescription drugs, the fact that these drugs do not work for everyone, and a burgeoning interest in natural remedies. Moreover, many people erroneously assume that natural substances are inherently safer than synthetic medications.</p>
+
+
+<div class="firstDiv">
+
+
+<section class="first">
+
+<ul class="products">
+<article class="">
+
+
+
+  <li><figure>
+    <img src="ginger.jpg" alt="">
+    <figcaption>Hibiscus Ginger Tea</figcaption>
+    <p><a href="product1.html">Buy here!</a></p>
+  </figure>
+</article></li>
+
+
+<article class="">
+  <li><figure>
+    <img src="aromatherapy.jpg" alt="">
+    <figcaption>Aromatherapy difuser</figcaption>
+    <p><a href="product2.html">Buy here!</a></p>
+  </figure>
+</article></li>
+
+
+<article class="">
+<li>  <figure>
+    <img src="arjuna.jpg" alt="">
+    <figcaption>Himalaya Organic Arjuna</figcaption>
+    <p><a href="product3.html">Buy here!</a></p>
+  </figure>
+
+
+</article></li>
+
+
+
+</ul>
+</section>
+
+<form class="" action="insertUser.php" method="post">
+
+  <fieldset id="userFieldset">
+    <legend id="userLegend">Admin Registration</legend>
+    <input type="text" name="name" id="left" value="" placeholder="Enter your name">
+    <input type="text" name="surname" id="left" value="" placeholder="Enter your surname">
+    <input type="email" name="email" id="left" value="" placeholder="Enter email">
+    <input type="password" name="password" id="left" value="" placeholder="Enter password">
+    <input type="submit" name="" id="left"  value="Register" >
+  </fieldset>
+
+</form>
+</div>
+<form class="example" action="DatabaseSearch.php">
+<input type="text" placeholder="Search.." name="search">
+<button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+<footer> &copy; 2022 Healthy Motherboard</footer>
 
   </body>
 </html>
